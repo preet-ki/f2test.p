@@ -95,3 +95,19 @@ margin-left: 10px;
    z-index: 2;
    color: #000;
 }
+@media  screen and (min-width:350px) and (max-width:420px){
+    .row{
+        width: 50%;
+        position: relative;
+        top:-1200px;
+        left:-30px;
+    }
+    .texts{
+        width: 180px;
+    }
+    .subs{
+        position: relative;
+        left:2px;
+        top:20px;
+    }
+}
