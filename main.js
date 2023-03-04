@@ -1,4 +1,4 @@
-document.getElementById("create").addEventListener("click", createForm);
+document.getElementById("create").addEventListener("onclick",createForm);
 function createForm(){
     var form=document.createElement("form");
     form.classList.add("row");
@@ -27,13 +27,13 @@ function createForm(){
     subs.setAttribute("value","Cancel post");
     form.appendChild(subs);
     subs.classList.add('subs');
-    var deletes= document.getElementById("deletes");
-    deletes.innerHTML = "&#10060;"; 
+    /*var deletes= document.getElementById("deletes");
+    /*deletes.innerHTML = "&#10060;";
       deletes.addEventListener("click", function() {
         this.form.style.display = 'none';
 
 });
-deletes.classList.add('del');
+deletes.classList.add('del');*/
 
 
     document.getElementsByTagName("body")[0].appendChild(form);

@@ -49,6 +49,7 @@ margin-left: 10px;
     margin-left: 10px;
     margin-bottom: 25px;
 }
+
 .row{
     position: relative;
     top:-700px;
@@ -95,6 +96,7 @@ margin-left: 10px;
    z-index: 2;
    color: #000;
 }
+
 @media  screen and (min-width:350px) and (max-width:420px){
     .row{
         width: 50%;
