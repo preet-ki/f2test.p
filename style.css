@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#create{
+    float: right;
+    position: relative;
+    top:-18px;
+}
+#create:hover{
+    cursor: pointer;
+}
+#head{
+    position: relative;
+    top:8px;
+    font-size: 25px;
+}
+section{
+    border: 1px solid white;
+    position: relative;
+    top:20px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+ .heads{
+font-size: 22px;
+font-weight: 520;
+margin-left: 10px;
+}
+.edits{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding:3px 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.delete{
+    margin-left: 10px;
+    padding:3px 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+
+}
+.para{
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
