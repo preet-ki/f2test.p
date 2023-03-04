@@ -49,3 +49,49 @@ margin-left: 10px;
     margin-left: 10px;
     margin-bottom: 25px;
 }
+.row{
+    position: relative;
+    top:-700px;
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    color: rgb(127, 127, 127);
+    padding-top: 10px;
+    width: 700px;
+    margin-left: 100px;
+}
+.inputs{
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.texts{
+    margin-bottom: 15px;
+}
+.sub,.subs{
+    width:180px ;
+    margin-top: 10px;
+    padding: 10px;
+}
+.sub{
+    position: relative;
+    bottom: -15px;
+}
+.subs{
+    position: relative;
+    left:200px;
+    bottom: 35px;
+}
+.texts{
+    width: 700px;
+    height: 200px;
+}
+.del{
+   position: relative;
+   top:110px; 
+   left:68%;
+   z-index: 2;
+   color: #000;
+}
